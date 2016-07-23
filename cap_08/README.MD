@@ -15,3 +15,11 @@
 11. [Uma função pode alterar qualquer objeto mutável que ela receber.](exemplo_11.py)
 12. [Uma classe simples para ilustrar o perigo de um default mutável.](exemplo_12.py)
 13. [Ônibus assombrados por passageiros fantasmas.](exemplo_13.py)
+14. [Passageiros desaparecem quando deixados por um TwilightBus](exemplo_14.py)
+15. [Uma classe simples que mostra os perigos de alterar argumentos recebidos](exemplo_15.py)
+16. [Observando o fim de um objeto quando não há mais referências a ele](exemplo_16.py)
+17. [Uma referência fraca é um invocável que devolve o objeto referenciado ou None se o referente não existir](exemplo_17.py) *Não funcionou
+18. [Cheese tem um atributo kind e uma representação-padrão](exemplo_18.py)
+19. [Cliente: "Afinal de contas, você tem algum tipo de queijo aqui?"](exemplo_19.py)
+20. [Uma tupla criada a partir de outra, na verdade, é exatamente a mesma tupla](exemplo_20.py)
+21. [Strings literais podem criar objetos compartilhados](exemplo_21.py)
