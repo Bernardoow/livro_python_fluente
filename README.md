@@ -1,4 +1,6 @@
 #Python Fluente
+###Programação clara, concisa e eficaz
+####Luciano Ramalho
 
 1. -
 2. -
