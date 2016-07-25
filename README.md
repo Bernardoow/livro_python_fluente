@@ -10,3 +10,4 @@
 6. -
 7. -
 8. [Referências a objetos, mutabilidade e reciclagem](cap_08)
+8. [Um objeto pythônico](cap_09)
