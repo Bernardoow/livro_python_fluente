@@ -8,3 +8,4 @@
 4. [Comparando os comportamentos de classmethod e de staticmethod](exemplo_04.py)
 5. [Método Vector2d.format, tomada#1](exemplo_05.py)
 6. [Método Vector2d.format, tomada#2, agora com coordenadas polares](exemplo_06.py)
+7. [vector2d_v3.py: somente as akterações necessárias para deixar Vector imutável estão mostradas aqui;](exemplo_07.py)

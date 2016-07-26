@@ -9,5 +9,8 @@
 5. -
 6. -
 7. -
+
+    #####Parte IV Práticas de orientação a objetos
+
 8. [Referências a objetos, mutabilidade e reciclagem](cap_08)
-8. [Um objeto pythônico](cap_09)
+9. [Um objeto pythônico](cap_09)

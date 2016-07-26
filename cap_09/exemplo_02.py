@@ -5,8 +5,8 @@ class Vector2d:
     typecode = 'd'
 
     def __init__(self, x, y):
-        self.x = float(x)
-        self.y = float(y)
+        self.__x = float(x)
+        self.__y = float(y)
 
     def __iter__(self):
         return (i for i in (self.x, self.y))
@@ -30,6 +30,17 @@ class Vector2d:
     def __bool__(self):
         return bool(abs(self))
 
+    def __hash__(self):
+        return hash(self.x) ^ hash(self.y)
+
+    @property
+    def x(self):
+        return self.__x
+
+    @property
+    def y(self):
+        return self.__y
+
     @classmethod
     def frombytes(cls, octets):
         typecode = chr(octets[0])
@@ -44,7 +55,7 @@ class Vector2d:
         else:
             coords = self
             outer_fmt = '({}, {})'
-        componets = (format(c, fmt_spec) for c in self)
+        componets = (format(c, fmt_spec) for c in coords)
         return outer_fmt.format(*componets)
 
     def angle(self):
