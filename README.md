@@ -14,3 +14,4 @@
 
 8. [Referências a objetos, mutabilidade e reciclagem](cap_08)
 9. [Um objeto pythônico](cap_09)
+10. [Hackenado e fatiando sequências](cap_10)
